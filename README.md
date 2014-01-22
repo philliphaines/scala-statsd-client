@@ -12,7 +12,7 @@ Todo - publish on an artifactory
 import com.zestia.statsd.NonBlockingStatsClient
 
 object Foo {
-	val statistics = new new NonBlockingStatsClient("my.prefix", "statsd-host", 8125)
+  val statistics = new new NonBlockingStatsClient("my.prefix", "statsd-host", 8125)
 
   def main(args: Array[String]) {
     statistics.increment("bar");
