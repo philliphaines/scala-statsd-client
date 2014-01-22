@@ -2,6 +2,8 @@
 Use this to commuicate with a statsd server to record statistics from your Application. 
 A simple statsd libary implemented in Scala based on [java-statsd-client](https://github.com/youdevise/java-statsd-client).
 
+[![Build Status](https://travis-ci.org/philliphaines/scala-statsd-client.png?branch=master)](https://travis-ci.org/philliphaines/scala-statsd-client)
+
 ## Download
 Todo - publish on an artifactory
 
